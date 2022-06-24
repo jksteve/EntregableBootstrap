@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Rubik+Glitch&display=swap" rel="stylesheet">
+
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="../assets/CSS/style.css">
+    
+
+    <title>BarberShop LaHermandad</title>
+</head>
+
+<body class="container-fluid">
+    <header class="container row d-flex justify-content-between">
+        <a class="col-6 title " href="../index.html">
+            <h1 class="">La <br> hermandad</h1>
+        </a>
+        <nav class="col-6 mt-5 d-flex justify-content-between nav">
+            <a href="../PAGES/contacto.html">Nosotros</a>
+            <a href="../PAGES/e-shop.html">E-Shop</a>
+            <a class="reserv" href="../PAGES/reservacion.html">Reservacion <i class="fa-solid fa-calendar-days"></i></a>
+            <a href="../PAGES/e-shop.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </nav>
+    </header>
+
+
+<div class="contenedor">
+<section class="rayas text-center cal" id="nosotros">
+
+    <div class="container-fluid calendar">
+        <div class="row">
+            <div class="span12 text-center">
+                <table class="table-condensed table-dark cale">
+                    <thead>
+                        <tr>
+                          <th colspan="7" >
+                            <a class="btn"><i class="icon-chevron-left"></i></a>
+                            <a class="btn">February 2012</a>
+                            <a class="btn"><i class="icon-chevron-right"></i></a>
+                          </th>
+                        </tr>
+                        <tr>
+                            <th>Su</th>
+                            <th>Mo</th>
+                            <th>Tu</th>
+                            <th>We</th>
+                            <th>Th</th>
+                            <th>Fr</th>
+                            <th>Sa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="muted">29</td>
+                            <td class="muted">30</td>
+                            <td class="muted">31</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td><strong>20</strong></td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td class="muted">1</td>
+                            <td class="muted">2</td>
+                            <td class="muted">3</td>
+                        </tr>
+                    </tbody>
+                </table>    
+            </div>
+        </div>
+    </div>
+    
+
+</section>
+</div>
+<form>
+    <fieldset class="fieldset">
+        <legend>Tipo de servicio</legend>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Hora</label>
+            <input type="time" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Tipo de servicio</label>
+          <select class="form-select" aria-label="Default select example">
+              <option selected>-- Seleccione --</option>
+              <option value="1">Solo corte</option>
+              <option value="2">Corte y Barba</option>
+              <option value="3">Solo Barba</option>
+            </select>
+        </div>
+          <div class="mb-3  mt-5">
+            <label class="form-label" for="exampleCheck1">Desea una bebida?</label>
+            <input type="checkbox" class="form-check-input chkbx" id="exampleCheck1">
+            
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Bebida</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>-- Seleccione --</option>
+                <option value="1">Imperial</option>
+                <option value="2">Pilsen</option>
+                <option value="3">whiskey</option>
+                <option value="4">Ron</option>
+              </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentario adicional</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+    </fieldset>
+    
+  </form>
+    <footer class=" footer p-5 text-center">
+        <p>Todos los derechos reservados &copy; - Jake Fernandez B.</p>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+        
+    <script src="https://kit.fontawesome.com/8414a06cf9.js" crossorigin="anonymous"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</body>
+
+</html>

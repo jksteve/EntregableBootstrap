@@ -1,0 +1,203 @@
+:root {
+    --fuente-principal: 'Adamina', serif;
+    --fuente-titulo: 'Rubik Glitch', cursive;
+
+    /* Paleta de colores */
+    --negro: #000000;
+    --blanco: #ffffff;
+    --rojo: #ff0000;
+
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: rgb(22, 22, 22);
+    color: var(--blanco);
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.6rem;
+}
+
+br {
+    display: inline-block;
+    padding: 0;
+    margin-top: 0px;
+}
+
+img {
+
+    box-shadow: -10px 10px 0px red;
+    margin: 0 0 2rem 0;
+}
+
+.title {
+    font-family: var(--fuente-titulo);
+    text-decoration: none;
+    color: var(--blanco);
+    text-align: center;
+}
+
+.main {
+    background-image: url(../IMG/bg-main.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.title-main {
+    padding-top: 50%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+.nav .reserv {
+    border: 1px solid var(--blanco);
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 1rem;
+}
+
+.btn-contact {
+    text-decoration: none;
+    color: var(--blanco);
+    border: 1px solid var(--blanco);
+    margin: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .title h1 {
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+    
+}
+@media screen and (max-width: 700px){
+    .contenedor{
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+    }
+    .cal{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .calendar {
+        display: flex;
+        justify-content: center;
+        font-size: 1px ;
+    }
+    .contenedor .cale td{
+        padding: 2px;
+    }
+}
+.rr{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.line{
+    width: 2rem;
+    height: 2.5px;
+    background-color: var(--rojo);    
+    margin-top: 1.5rem;
+    margin-right: .5rem;
+}
+
+.btn-contact i {
+    color: green;
+}
+
+.item img {
+    border-radius: 50%;
+}
+
+.acarrito {
+    text-decoration: none;
+    color: var(--blanco);
+    border: 2px solid var(--blanco);
+    display: block;
+    margin: 2rem 10rem;
+    padding: 1.5rem;
+}
+
+.footer {
+   text-align: center;
+}
+.cal{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.calendar {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem ;
+}
+.cale td{
+    padding: 2rem;
+}
+.chkbx {
+    -ms-transform: scale(.5);
+    /* IE */
+    -moz-transform: scale(.5);
+    /* FF */
+    -webkit-transform: scale(.5);
+    /* Safari y Chrome */
+    -o-transform: scale(.5);
+    /* Opera */
+    padding: 2%;
+    
+}
+.fieldset{
+    color: var(--blanco);
+    border: 1px solid var(--blanco);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.fieldset legend{
+    color: var(--blanco);
+}
+.contenedor{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
